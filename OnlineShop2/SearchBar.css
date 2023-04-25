@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+.menuItem {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: transparent;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.menuItem :hover {
+    background-color: hotpink;
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    float: left;
+    padding-right: 16px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: deeppink;
+}
+
+li button:hover {
+    background-color: deeppink;
+}
